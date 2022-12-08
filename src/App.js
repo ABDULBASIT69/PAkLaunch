@@ -8,6 +8,10 @@ import UnconferenceEvent from './assets/components/UnconferenceEvent';
 import Investors from './assets/components/Investors';
 import Enablers from './assets/components/Enablers';
 import Wherewego from './assets/components/Wherewego';
+import Sponsors from './assets/components/Sponsors';
+import Venue from './assets/components/Venue';
+import ContactUs from './assets/components/ContactUs';
+import Copyright from './assets/components/Copyright';
 
 function App() {
   return (
@@ -19,6 +23,10 @@ function App() {
       <Investors />
       <Enablers />
       <Wherewego />
+      <Sponsors />
+      <Venue />
+      <ContactUs />
+      <Copyright />
     </div>
   );
 }

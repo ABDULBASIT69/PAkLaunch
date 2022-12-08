@@ -101,7 +101,7 @@ export default function Header() {
         }}
           />
         <div className='first-section relative'>
-            <div className='header fixed z-10 pt-10 w-full'>
+            <div className='header pt-10 w-full'>
                 <div className='header-container'>
                     <div className='top-bar border rounded-2xl px-8 py-4 flex justify-between items-center'>
                         <div><img src={headerlogo} /></div>

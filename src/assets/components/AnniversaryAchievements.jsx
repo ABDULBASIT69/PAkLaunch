@@ -11,13 +11,13 @@ export default function AnniversaryAchievements() {
     return (
         <div className='anniversaryachievements pt-48 relative'>
             <div className='pak-container'>
-                <div className='flex'>
+                <div className='flex justify-between'>
                     <div className='achievements'>
                         <h1 className='text40 font-weight700 font-inter text-white w-2/3'>Paklaunch 2nd Anniversary Achievements</h1>
                         <div class="pt-20"><button className='rounded-xl px-12 py-5 text18 font-weight600 font-roboto '>View All</button></div>
                     </div>
                     <div className='slider'>
-                        {/* <AchievementsSlider /> */}
+                        <AchievementsSlider />
                     </div>
                 </div>
                 <div className='pt-32 grid grid-cols-3 gap-x-8 gap-y-24'>
