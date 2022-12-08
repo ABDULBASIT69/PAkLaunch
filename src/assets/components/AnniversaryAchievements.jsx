@@ -11,16 +11,16 @@ export default function AnniversaryAchievements() {
     return (
         <div className='anniversaryachievements pt-48 relative'>
             <div className='pak-container'>
-                <div className='flex justify-between'>
+                <div className='flex justify-between lg:flex-row flex-col'>
                     <div className='achievements'>
-                        <h1 className='text40 font-weight700 font-inter text-white w-2/3'>Paklaunch 2nd Anniversary Achievements</h1>
-                        <div class="pt-20"><button className='rounded-xl px-12 py-5 text18 font-weight600 font-roboto '>View All</button></div>
+                        <h1 className='text40 font-weight700 font-inter text-white lg:w-2/3 w-full'>Paklaunch 2nd Anniversary Achievements</h1>
+                        <div class="lg:pt-20 pt-10"><button className='rounded-xl px-12 py-5 text18 font-weight600 font-roboto hover:bg-white'>View All</button></div>
                     </div>
-                    <div className='slider'>
+                    <div className='slider lg:pt-0 pt-10'>
                         <AchievementsSlider />
                     </div>
                 </div>
-                <div className='pt-32 grid grid-cols-3 gap-x-8 gap-y-24'>
+                <div className='pt-32 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-8 gap-y-24'>
                     <div className='achievement-card text-center flex flex-col justify-center items-center py-10'>
                         <div className='mt85'><img src={users} /></div>
                         <h2 className='text28 font-inter font-weight700 pt-10 text-white'>220 Millions</h2>

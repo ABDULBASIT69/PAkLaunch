@@ -6,7 +6,7 @@ export default function UnconferenceEvent() {
         <div className='pak-container'>
             <h1 className='text40 font-inter font-weight700 text-white text-center'>Paklaunch UnConference Event</h1>
             <h1 className='text40 font-inter font-weight700 text-white text-center'>(Palo Alto)</h1>
-            <div className='pt-16 grid grid-cols-3 text-white'>
+            <div className='pt-16 grid lg:grid-cols-3 grid-cols-1 text-white'>
                 <div className='card1 relative'>
                     <h1 className=' text105 font-roboto font-weight700 pl-10'>1</h1>
                     <div className='absolute top-2/4 left-2/4 transform w-2/3'>Top 50 Pakistani entrepreneurs are specially flying for this event and will be introduced to global investors.</div>

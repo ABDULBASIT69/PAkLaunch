@@ -5,13 +5,13 @@ export default function ConferenceAgenda() {
         <div className='conference-agenda mt-24  text-center relative'>
             <div className='pak-container'>
                 <h2 className='text40 font-weight700 font-inter text-white'>Conference Agenda</h2>
-                <div className='grid grid-cols-3 agenda-table rounded-2xl py-12 mt-12'>
+                <div className='grid lg:grid-cols-3 grid-cols-1 agenda-table rounded-2xl py-12 mt-12'>
                     <div>
                         <h3 className='text28 font-inter font-weight700'>January 25</h3>
                         <p className='text20 font-roboto font-weight600 pt-10'>6:00 PM - 10:00 PM</p>
                         <p className='text18 font-weight300 font-roboto pt-5'>Dinner</p>
                     </div>
-                    <div  className='border-r-4 border-l-4 border-black'>
+                    <div className='lg:border-r-4 lg:border-l-4 border-0 lg:py-0 py-16 border-black'>
                         <h3 className='text28 font-inter font-weight700'>January 26</h3>
                         <p className='text20 font-roboto font-weight600 pt-10'>9:00 AM - 4:00 PM</p>
                         <p className='text18 font-weight300 font-roboto pt-5'>Roundtables/Networking</p>
