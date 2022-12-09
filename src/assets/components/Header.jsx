@@ -105,7 +105,7 @@ export default function Header() {
             {
                 show?<div className=' flex flex-col justify-center gap-10 items-center bg-white opacity-80 h-full w-full fixed z-10'>
                 <nav>
-                    <ul className='no-underline gap-16 font-roboto font-weight300 text40'>
+                    <ul className='no-underline gap-16 font-roboto font-weight300 text40 text-center'>
                         <li className='cursor-pointer'>Destinations</li>
                         <li className='cursor-pointer'>Activities</li>
                         <li className='cursor-pointer'>About Us</li>
@@ -119,8 +119,8 @@ export default function Header() {
             <div className='first-section relative'>
                 <div className='header pt-10 w-full'>
                     <div className='header-container'>
-                        <div className='top-bar border rounded-2xl px-8 py-4 flex justify-between items-center'>
-                            <div><img src={headerlogo} /></div>
+                        <div className='top-bar border rounded-2xl lg:px-8 px-4 py-4 flex justify-between items-center'>
+                            <div><a href='#'><img src={headerlogo} /></a></div>
                             <nav className='lg:block hidden'>
                                 <ul className='text-white no-underline flex gap-16 font-roboto font-weight300 text14'>
                                     <li className='cursor-pointer'>Destinations</li>
